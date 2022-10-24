@@ -4,8 +4,6 @@ author: jeongdoc
 date: 2019-04-26 17:00:00 +0900
 categories: [Algorithm, JAVA]
 tags: [algorithm, java, 알고리즘, 자바]
-pin: true
-render_with_liquid: false
 ---
 
 ### 백준 1152
