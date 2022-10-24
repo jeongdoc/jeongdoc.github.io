@@ -6,7 +6,7 @@ categories: [Algorithm, JAVA]
 tags: [algorithm, java, 알고리즘, 자바]
 ---
 
-### 백준 1152    
+## 백준 1152    
 ``` java
 package bojEX;
 
