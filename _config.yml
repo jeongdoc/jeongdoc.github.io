@@ -54,7 +54,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-01YH5PEBX8    # fill in your Google Analytics ID
+  id: G-MVLPCP6H8B    # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint: https://elite-particle-366504.appspot.com/query?id=ahl6ZGV-ZWxpdGUtcGFydGljbGUtMzY2NTA0chULEghBcGlRdWVyeRiAgICYlKaDCgw   
