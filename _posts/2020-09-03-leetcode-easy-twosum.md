@@ -6,7 +6,7 @@ categories: [Algorithm,JAVA]
 tags: [algorithm,java,알고리즘,자바,leetcode]
 ---
 
-## Leetcode(Easy) 1
+### Leetcode(Easy) Two Sum
 
 ## Question
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -30,7 +30,7 @@ Output: [1,2]
 
 ***
 
-## solution    
+## Solution    
 ``` java
 import java.util.Arrays;
 import java.util.Comparator;
