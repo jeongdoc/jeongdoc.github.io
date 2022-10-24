@@ -1,5 +1,5 @@
 ---
-title: [JAVA-알고리즘] BOJ1152
+title: \[JAVA-알고리즘\] BOJ1152
 author: cotes
 date: 2019-04-26 17:00:00 +0900
 categories: [Algorithm, JAVA]
