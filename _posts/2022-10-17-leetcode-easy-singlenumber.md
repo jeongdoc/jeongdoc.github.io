@@ -32,11 +32,13 @@ Output: 1
 문제를 대충 읽으면 놓치기 쉬운 부분이 있다. 문제에도 명시되어있는 조건인데,
 1. Time complexity : Linear - O(n)
 2. Space complexity : Constant -  O(1)    
+
 ***
 
 ## Solution 1 - Map 
 - Time complexity : O(n)
 - Space complexity : O(n)    
+
 ``` javascript
 // 136. single number
 
@@ -76,6 +78,7 @@ SingleNumber([4,1,2,1,2]);
 ## Solution 2 - XOR
 - Time complexity : O(n)
 - Space complexity : O(1)    
+
 ``` javascript
 function SingleNumber2(nums: number[]): void {
 
