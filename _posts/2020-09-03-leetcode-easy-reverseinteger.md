@@ -6,8 +6,6 @@ categories: [Algorithm,JAVA]
 tags: [algorithm,java,알고리즘,자바,leetcode]
 ---
 
-### Leetcode(Easy) Reverse Integer
-
 ## Question
 Given a 32-bit signed integer, reverse digits of an integer.
 

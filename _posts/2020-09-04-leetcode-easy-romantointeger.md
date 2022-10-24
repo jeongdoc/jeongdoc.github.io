@@ -5,8 +5,6 @@ categories: [Algorithm,JAVA]
 tags: [algorithm,java,알고리즘,자바,leetcode]
 ---
 
-### Leetcode(Easy) Roman to Integer
-
 ## Question
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 

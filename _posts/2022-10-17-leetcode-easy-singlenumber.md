@@ -1,11 +1,9 @@
 ---
 title: JAVA-알고리즘 Leetcode(Easy)-Single Number
 date: 2022-10-17 16:56:00 +0900
-categories: [Algorithm,Javascript]
-tags: [algorithm,알고리즘,javascript,leetcode]
+categories: [Algorithm,Typescript]
+tags: [algorithm,알고리즘,typescript,leetcode]
 ---
-
-### Leetcode(Easy) Single Number
 
 ## Question
 Given a __non-empty__ array of integers `nums`, every element appears twice except for one. Find that single one.
@@ -17,21 +15,28 @@ You must implement a solution with a linear runtime complexity and use only co
 ## Example
 ``` text
 #1
-Input: root = [1,null,2,3]
-Output: [1,3,2]
+Input: nums = [2,2,1]
+Output: 1
 
 #2
-Input: root = []
-Output: []
+Input: nums = [4,1,2,1,2]
+Output: 4
 
 #3
-Input: root = [1]
-Output: [1]
+Input: nums = [1]
+Output: 1
 ```
 
 ***
+## 고려해야할 부분
+문제를 대충 읽으면 놓치기 쉬운 부분이 있다. 문제에도 명시되어있는 조건인데,
+1. Time complexity : Linear - O(n)
+2. Space complexity : Constant -  O(1)
+***
 
-## Solution 1 - Map
+## Solution 1 - Map 
+- Time complexity : O(n)
+- Space complexity : O(n)
 ``` javascript
 // 136. single number
 
@@ -69,6 +74,8 @@ SingleNumber([4,1,2,1,2]);
 ```
 
 ## Solution 2 - XOR
+- Time complexity : O(n)
+- Space complexity : O(1)
 ``` javascript
 function SingleNumber2(nums: number[]): void {
 

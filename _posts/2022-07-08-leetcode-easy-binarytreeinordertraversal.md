@@ -5,8 +5,6 @@ categories: [Algorithm,Javascript]
 tags: [algorithm,알고리즘,javascript,leetcode]
 ---
 
-### Leetcode(Easy) Binary Tree Inorder Traversal
-
 ## Question
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 

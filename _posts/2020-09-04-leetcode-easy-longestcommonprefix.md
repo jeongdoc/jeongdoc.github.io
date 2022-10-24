@@ -5,8 +5,6 @@ categories: [Algorithm,JAVA]
 tags: [algorithm,java,알고리즘,자바,leetcode]
 ---
 
-### Leetcode(Easy) Longest Common Prefix
-
 ## Question
 Write a function to find the longest common prefix string amongst an array of strings.
 

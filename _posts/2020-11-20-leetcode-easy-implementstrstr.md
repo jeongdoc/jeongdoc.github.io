@@ -5,8 +5,6 @@ categories: [Algorithm,JAVA]
 tags: [algorithm,java,알고리즘,자바,leetcode]
 ---
 
-### Leetcode(Easy) ImplementStrStr
-
 ## Question
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 

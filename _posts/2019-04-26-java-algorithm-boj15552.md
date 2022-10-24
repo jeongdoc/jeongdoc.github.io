@@ -6,7 +6,6 @@ categories: [Algorithm, JAVA]
 tags: [algorithm, java, 알고리즘, 자바,백준]
 ---
 
-## 백준 15552    
 ## solution    
 ``` java
 import java.io.BufferedReader;

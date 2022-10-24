@@ -5,8 +5,6 @@ categories: [Algorithm,JAVA]
 tags: [algorithm,java,알고리즘,자바,leetcode]
 ---
 
-### Leetcode(Easy) Merge Two Sorted Lists
-
 ## Question
 Merge two sorted linked lists and return it as a new sorted list. 
 The new list should be made by splicing together the nodes of the first two lists.
