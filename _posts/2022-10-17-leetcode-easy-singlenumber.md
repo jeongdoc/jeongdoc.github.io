@@ -78,7 +78,6 @@ SingleNumber([4,1,2,1,2]);
 ## Solution 2 - XOR
 - Time complexity : O(n)
 - Space complexity : O(1)    
-
 ``` javascript
 function SingleNumber2(nums: number[]): void {
 
