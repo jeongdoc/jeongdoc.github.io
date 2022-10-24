@@ -1,12 +1,12 @@
 ---
-title: JAVA-알고리즘 BOJ1152
+title: JAVA-알고리즘 BOJ10827
 author: jeongdoc
-date: 2019-04-26 17:00:00 +0900
+date: 2019-04-26 17:13:00 +0900
 categories: [Algorithm, JAVA]
 tags: [algorithm, java, 알고리즘, 자바]
 ---
 
-## 백준 1152    
+### 백준 10827    
 ## solution    
 ``` java
 package bojEX;
