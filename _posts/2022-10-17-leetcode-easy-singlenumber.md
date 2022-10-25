@@ -1,5 +1,5 @@
 ---
-title: JAVA-알고리즘 Leetcode(Easy)-Single Number
+title: TS-알고리즘 Leetcode(Easy)-Single Number
 date: 2022-10-17 16:56:00 +0900
 categories: [Algorithm,Typescript]
 tags: [algorithm,알고리즘,typescript,leetcode]

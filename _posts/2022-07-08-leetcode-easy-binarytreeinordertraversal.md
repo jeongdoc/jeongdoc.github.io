@@ -1,5 +1,5 @@
 ---
-title: JAVA-알고리즘 Leetcode(Easy)-Binary Tree Inorder Traversal
+title: JS-알고리즘 Leetcode(Easy)-Binary Tree Inorder Traversal
 date: 2022-07-08 17:58:00 +0900
 categories: [Algorithm,Javascript]
 tags: [algorithm,알고리즘,javascript,leetcode]
