@@ -1,10 +1,11 @@
 /*
   The common styles
 */
-@import "https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic Bold.eot";
-@import "https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic Bold.woff";
-@import "https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic.eot";
-@import "https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic.woff";
+@font-face {
+  font-family: "NEXON Lv2 Gothic Bold";
+  src: url('https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic Bold.eot') format('eot');
+  src: url('https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic Bold.woff') format('woff'); 
+}
 
 html {
   @media (prefers-color-scheme: light) {
@@ -37,7 +38,7 @@ body {
   color: var(--text-color);
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
-  font-family: 'NEXON Lv2 Gothic Bold','NEXON Lv2 Gothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'NEXON Lv2 Gothic Bold';
   line-height: 1.75;
 }
 
