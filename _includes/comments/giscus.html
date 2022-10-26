@@ -26,7 +26,8 @@
       "data-input-position": "{{ site.comments.giscus.input_position | default: 'bottom' }}",
       "data-lang": "{{ site.comments.giscus.lang | default: lang }}",
       "crossorigin": "anonymous",
-      "async": ""
+      "async": "",
+      "data-strict": "{{ site.comments.strict }}"
     };
 
     let giscusScript = document.createElement("script");
