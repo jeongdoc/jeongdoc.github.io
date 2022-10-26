@@ -1,7 +1,7 @@
 /*
   The common styles
 */
-
+@import url('https://jeongdoc.net/files/fonts/items/nexon_gothic_lv2');
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
@@ -32,7 +32,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'NEXON Lv2 Gothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
   line-height: 1.75;
 }
 
