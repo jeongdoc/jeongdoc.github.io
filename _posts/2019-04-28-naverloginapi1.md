@@ -5,6 +5,8 @@ categories: [FRAMEWORK,SPRING,JSP-SERVLET]
 tags: [jsp-servlet,네아로,API]
 ---
 
+[목차테스트1](/_posts/2019-04-26-java-algorithm-boj15552.md)
+
 ## 들어가며
  spring이라는 정말 많이 쓰이는 JAVA 플랫폼 프레임워크이 있지만, spring 이전에 JSP-SERVLET(+MVC)가 있었습니다.
 이를 공부하는 것은 spring의 구조, 등장배경 등 이해에 도움이 될 것이라고 생각합니다.
