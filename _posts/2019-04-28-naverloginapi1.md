@@ -8,12 +8,12 @@ tags: [jsp-servlet,네아로,API]
 ## 들어가며
  spring이라는 정말 많이 쓰이는 JAVA 플랫폼 프레임워크이 있지만, spring 이전에 JSP-SERVLET(+MVC)가 있었습니다.
 이를 공부하는 것은 spring의 구조, 등장배경 등 이해에 도움이 될 것이라고 생각합니다.
-그렇기에 공부의 의미로 JSP-SERLVET을 이용하여 네아로API 연동해보았던 것을 간단하게나마 정리해보고자 합니다.
+그렇기에 공부의 의미로 JSP-SERLVET을 이용하였고 네아로API 연동해보았던 것을 간단하게나마 정리해보고자 합니다.
 JSP와 Servlet만을 이용하여 접근토큰(access_token) 가져오는 방법까지만 서술합니다.
 
 ## 1. 네아로를 이용하기 위한 사전 작업
 1. 네이버 개발자 센터 - 네아로
-[https://developers.naver.com/main/]( https://developers.naver.com/main/ "네아로")
+[네이버 개발자 센터로 이동](https://developers.naver.com/main "네아로")
 네이버아이디로로그인(이하 네아로)은 네이버 개발자 센터에서 신청하면 됩니다.
 위 링크를 이용하면 사이트로 바로 이동합니다.
 
@@ -47,7 +47,7 @@ API 신청을 하는 과정이나 신청 이후에 아래와 같은 페이지를
 
 ## 3. 서비스 url, callback url
 
-[https://developers.naver.com/docs/login/api/](https://developers.naver.com/docs/login/api/ "네아로 API")
+[네이버 개발자 센터 API명세페이지로 이동](https://developers.naver.com/docs/login/api "네아로 API")
 
  네이버 개발자 센터에 보면 API명세가 있습니다. 이 명세를 참고해서 서비스와 콜백페이지를 구성하면 됩니다.
 API 호출 예제를 잘 표기해놨는데 javascript, jsp, php, node.js, asp.net 이렇게 다섯 가지의 예제가 표기되어 있습니다.
