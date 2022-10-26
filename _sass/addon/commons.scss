@@ -2,6 +2,11 @@
   The common styles
 */
 @font-face {
+  font-family: "NEXON Lv2 Gothic";
+  src: url('/assets/font/nexon_gothic_lv2/NEXON\ Lv2\ Gothic.eot') format('eot');
+  src: url('/assets/font/nexon_gothic_lv2/NEXON\ Lv2\ Gothic.woff') format('woff'); 
+}
+@font-face {
   font-family: "NEXON Lv2 Gothic Bold";
   src: url('/assets/font/nexon_gothic_lv2/NEXON\ Lv2\ Gothic\ Bold.eot') format('eot');
   src: url('/assets/font/nexon_gothic_lv2/NEXON\ Lv2\ Gothic\ Bold.woff') format('woff'); 
@@ -38,7 +43,7 @@ body {
   color: var(--text-color);
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
-  font-family: 'NEXON Lv2 Gothic Bold';
+  font-family: 'NEXON Lv2 Gothic', 'NEXON Lv2 Gothic Bold';
   line-height: 1.75;
 }
 
