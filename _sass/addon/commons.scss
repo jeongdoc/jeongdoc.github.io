@@ -3,6 +3,8 @@
 */
 @import url('https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic.eot');
 @import url('https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic.woff');
+@import url('https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic Bold.eot');
+@import url('https://www.jeongdoc.net/files/fonts/items/nexon_gothic_lv2/NEXON Lv2 Gothic Bold.woff');
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
@@ -32,8 +34,9 @@ html {
 body {
   background: var(--body-bg);
   color: var(--text-color);
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
-  font-family: 'NEXON Lv2 Gothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'NEXON Lv2 Gothic Bold','NEXON Lv2 Gothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
   line-height: 1.75;
 }
 
