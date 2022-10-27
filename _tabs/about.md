@@ -15,6 +15,8 @@ published: true
   </a>
 </div>
 
+---
+
 ## About Me
 
 🎓 &nbsp;Studying bachelor Historiography at the Dongduk women's universty    
