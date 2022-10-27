@@ -1,7 +1,7 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+published: true
 ---
 <!-- 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
@@ -16,7 +16,7 @@ order: 4
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
   </div>
-  <img src="https://komarev.com/ghpvc/?username=jeongdoc&style=for-the-badge&color=blue" alt=""/>
+  <!--<img src="https://komarev.com/ghpvc/?username=jeongdoc&style=for-the-badge&color=blue" alt=""/>-->
 </div>
 
 ***
