@@ -9,5 +9,5 @@ order: 4
  -->
 
 <div id="header" align="center">
-  <img src="https://www.jeongdoc.net/files/img/items/jeongdoc_white_300.png" width="100"/>
+  <img src="https://www.jeongdoc.net/files/img/items/jeongdoc_favicon.png" width="100"/>
 </div>
