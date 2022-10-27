@@ -16,10 +16,6 @@ published: true
 ---
 
 ## Hello!
-🎓 &nbsp;동덕여자대학교 국사학 전공, 학사 졸업    
-💻 &nbsp;백엔드개발자     
-🏦 &nbsp;[I-BRICKS](http://www.i-bricks.co.kr/)에서 근무중 (2020 ~ Now)    
-🏦 &nbsp;[PCT](http://www.powerct.kr/)에서 근무했었음 (2019 ~ 2020)
 
 🎓 &nbsp;Studying bachelor Historiography at the Dongduk women's university    
 💻 &nbsp;I am currently working as a Back-end developer     
@@ -33,9 +29,6 @@ published: true
 <p >
   <img src="https://github-readme-stats.vercel.app/api?username=jeongdoc&show_icons=true&theme=prussian&custom_title=My%20Github%20Board&include_all_commits=true" alt="github stats"/></br>
 </p>
-
-NOTE:    
-위의 차트는 단순히 깃허브에 관한 정보로, 스킬 레벨이나 언어 능력을 대변하지 않습니다.    
 
 NOTE:    
 This does not indicate my skill level or language proficiency,    
