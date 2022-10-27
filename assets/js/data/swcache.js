@@ -45,7 +45,8 @@ const allowedDomains = [
   'fonts.googleapis.com',
   'cdn.jsdelivr.net',
   'polyfill.io',
-  'jeongdoc.net'
+  'jeongdoc.net',
+  'jeongdoc.com'
 ];
 
 /* Requests that include the following path will be banned */
