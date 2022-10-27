@@ -1,8 +1,13 @@
 ---
 title: Jekyll 폰트 적용
-date: 2022-10-27 10:35:00 +0900
-categories: [JEKYLL,FONT]
-tags: [jekyll,font]
+date: '2022-10-27 10:35:00 +0900'
+categories:
+  - JEKYLL
+  - FONT
+tags:
+  - jekyll
+  - font
+published: true
 ---
 
 ### 들어가며
@@ -49,8 +54,8 @@ import 구문은 파일의 최상단에 작성해주세요.
 /* 내가 입력한 import url 예시 */
 @font-face {
   font-family: "Roboto";
-  src: url('{{폰트가 있는 폴더 경로}}/Roboto.eot') format('eot');
-  src: url('{{폰트가 있는 폴더 경로}}/Roboto.woff') format('woff'); 
+  src: url('\{\{폰트가 있는 폴더 경로\}\}/Roboto.eot') format('eot');
+  src: url('\{\{폰트가 있는 폴더 경로\}\}/Roboto.woff') format('woff'); 
 }
 
 /* import한 폰트 적용 */
