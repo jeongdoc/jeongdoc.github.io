@@ -7,7 +7,7 @@ published: true
 ## Hello
 
 ![""](https://www.jeongdoc.net/files/img/items/jeongdoc_favicon.png)
-#### JEONGDOC
+#### JEONGDOC(정독)
 
 <div>
   <a href="https://kr.linkedin.com/in/%EC%A0%95%EC%9D%80-%EC%95%88-73245a18b">
@@ -19,10 +19,14 @@ published: true
 
 ## About Me
 
-🎓 &nbsp;Studying bachelor Historiography at the Dongduk women's universty    
-🏦 &nbsp;Backend Developer working for a I-bricks
+🎓 &nbsp;Studying bachelor Historiography at the Dongduk women's university    
+💻 &nbsp;I am currently working as a Back-end developer     
+🏦 &nbsp;Working for the [I-BRICKS](http://www.i-bricks.co.kr/) (2020 ~ Now)    
+🏦 &nbsp;Worked for a startup called [PCT](http://www.powerct.kr/) in Korea (2019 ~ 2020)
 
 ---
+
+## Github Stats
 
 <p >
   <img src="https://github-readme-stats.vercel.app/api?username=jeongdoc&show_icons=true&theme=prussian&custom_title=My%20Github%20Board&include_all_commits=true" alt="github stats"/></br>
@@ -30,7 +34,7 @@ published: true
 
 NOTE:    
 This does not indicate my skill level or language proficiency,    
-it's merely a GitHub metric of which languages I have the most code of on GitHub.    
+It's merely a GitHub metric of which languages I have the most code of on GitHub.    
 
 ---
 
