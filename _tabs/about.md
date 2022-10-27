@@ -21,10 +21,4 @@ order: 4
 
 ***
 ### Languages and Tools
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/tree/develop/icons/elasticsearch/elasticsearch-original-wordmark.svg" title="Elasticsearch" **alt="Elasticsearch" width="40" height="40"/>
-</div>
+<div> <img data-src="https://img.shields.io/badge/java-007396?style=flat-square&amp;logo=java&amp;logoColor=white" data-proofer-ignore="" src="https://img.shields.io/badge/java-007396?style=flat-square&amp;logo=java&amp;logoColor=white" data-loaded="true"> <img data-src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" data-proofer-ignore="" src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" data-loaded="true"> <img data-src="https://img.shields.io/badge/NodeJS-007396?style=flat-square&amp;logo=nodejs&amp;logoColor=white" data-proofer-ignore="" src="https://img.shields.io/badge/NodeJS-007396?style=flat-square&amp;logo=nodejs&amp;logoColor=white" data-loaded="true"> </div>
