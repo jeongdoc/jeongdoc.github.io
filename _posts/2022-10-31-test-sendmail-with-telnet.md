@@ -44,7 +44,7 @@ helo domain.co.kr
 ```
 ![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail3.PNG)
 
-~~ pleased meet you라는 메세지가 나오면 잘 된 것입니다.    
+~~ pleased to meet you라는 메세지가 나오면 잘 된 것입니다.    
 이후 수신주소를 입력해야하는데요, rcpt to 이후 메일주소를 입력합니다.
 ``` bash
 rcpt to : receiver@test.com
