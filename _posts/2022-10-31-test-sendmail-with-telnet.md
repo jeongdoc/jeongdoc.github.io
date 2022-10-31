@@ -26,7 +26,7 @@ telnet localhost 25
 ```
 
  위처럼 접근하면 아래와 같은 메세지를 볼 수 있습니다.
-![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail1.PNG)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2022/10/telnet-sendmail1.PNG)
 
 흰색 네모 표기가 되어있는 곳은 서버의 IP나, 도메인등이 표기됩니다.
 
@@ -35,14 +35,14 @@ telnet localhost 25
 mail from : sender@test.com
 ```
 
-![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail2.PNG)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2022/10/telnet-sendmail2.PNG)
 
 mail from을 입력하고 나면 붉은색 네모 안에 표기된 메시지가 나오는데 SMTP 서버에 helo명령을 전송하여 SMTP를 식별하는 것입니다.    
 보통은 SMTP의 도메인을 전송합니다. 여기서는 localhost로 접속하였다면 localhost라고 해주시면 됩니다.
 ``` bash
 helo domain.co.kr
 ```
-![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail3.PNG)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2022/10/telnet-sendmail3.PNG)
 
 ~~ pleased to meet you라는 메세지가 나오면 잘 된 것입니다.    
 이후 수신주소를 입력해야하는데요, rcpt to 이후 메일주소를 입력합니다.
@@ -50,8 +50,8 @@ helo domain.co.kr
 rcpt to : receiver@test.com
 ```
 
-![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail4.PNG)
-![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail5.PNG)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2022/10/telnet-sendmail4.PNG)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2022/10/telnet-sendmail5.PNG)
 
 이때 Need to MAIL before RCPT라는 메세지가 나오는데, 앞서 HELO 명령어로 식별만 했을 뿐 발신주소가 인식된 것이 아닙니다.    
 따라서 HELO 이후 한 번 더 mail from을 이용해 발신주소를 입력하면 됩니다. 이후 rcpt to로 수신주소를 입력하면 발신인/수신인 지정은 완료됩니다.    
@@ -60,7 +60,7 @@ rcpt to : receiver@test.com
 이후 data 명령어로 보내고자 하는 내용을 작성합니다.    
 내용을 다 작성하였다면 단일점(".")으로 끝내주시면 됩니다. Message accepted for delivery와 함께 완료되며 잘 진행됐는지 확인해보시면 됩니다.    
 
-![""](https://jeongdoc.com/assets/img/2022/10/telnet-sendmail6.PNG)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2022/10/telnet-sendmail6.PNG)
 
 모든걸 확인하셨다면 CTRL+], q로 접속을 종료해줍니다.    
 

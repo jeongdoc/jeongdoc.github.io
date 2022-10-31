@@ -23,14 +23,14 @@ JSP와 Servlet만을 이용하여 접근토큰(access_token) 가져오는 방법
 
 ### 2. API 신청
 API 신청을 하는 과정이나 신청 이후에 아래와 같은 페이지를 볼 수 있습니다.<br>
-![""](https://jeongdoc.com/assets/img/2019/04/naverloginapi1.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/04/naverloginapi1.png)
 
 사용 API항목에서 자신의 사이트 이용시 필수 혹은 추가로 받고자 하는 정보에 체크를 합니다.<br>
 다만, 사용자가 네이버 자체에서 정보제공 동의를 하지 않은 항목의 경우엔 필수로 받아온다고 체크를 해도 사용할 수 없습니다.<br>
 따라서 이 부분은 사이트 성향에 따라 원하는 대로 구성하면 됩니다.<br>
 저는 이름(실명)만 추가 입력을 받았습니다.
 
-![""](https://jeongdoc.com/assets/img/2019/04/naverloginapi2.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/04/naverloginapi2.png)
 아래쪽엔 위와 같은 페이지가 보입니다.<br>
 서비스 URL과 콜백URL을 필수로 기입해야 합니다. 서비스 URL은 네아로 버튼이 노출될 페이지의 주소를 적으면 됩니다.<br>
 네아로 버튼이라고 했지만 사실상 회원가입이나 로그인버튼이며, 네이버로 로그인 버튼이 띄워질 페이지의 URL을 적으면 되겠습니다.
@@ -43,7 +43,7 @@ API 신청을 하는 과정이나 신청 이후에 아래와 같은 페이지를
 즉 접근토큰을 받을 페이지의 url을 callback url에 기입하면 됩니다.<br>
 참고로, 네아로는 localhost는 지원하지 않으므로 127.0.0.1이나 자신의 ip주소를 이용합시다.
 
-![""](https://jeongdoc.com/assets/img/2019/04/naverloginapi3.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/04/naverloginapi3.png)
 정상적으로 API사용신청이 완료 되었다면 내 애플리케이션(위에서 지은 이름이 아래에 뜬다)항목에서 Client ID 와 Client Secret 정보를 확인 할 수 있습니다.<br>
 이 정보는 서비스url 페이지와 callback url 페이지에서 사용해야하기 때문에 어디에 적어놓거나 페이지를 띄워놓고 작업하길 추천합니다.
 

@@ -70,7 +70,7 @@ apiurl도 제공해주는 것이고 오타없이 따라서 잘 작성합시다.<
 2편에서도 줄곧 강조하였듯, 네이버 개발자 센터에 있는 api명세를 꼼꼼히 읽어보면서 작업합니다.<br>
 처음 사용하면 낯선 것이 당연하겠지만 결국 답은 api명세에 있으니 api명세를 다른 창에 띄워두고 작업하시길 추천드립니다.<br>
 
-![""](https://jeongdoc.com/assets/img/2019/05/naverloginapi3-1.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/05/naverloginapi3-1.png)
  네이버 개발자 센터의 api명세쪽을 훑다보면 위와 같은 부분을 볼 수 있습니다.<br>
 
 붉은색 네모상자로 표기되어있는 부분에 집중해봅시다.<br>
@@ -117,11 +117,11 @@ JSP-SERVLET을 이용했으므로 모든 코드를 작성 한 후에 requestDisp
 
 ### 결과
 
-![""](https://jeongdoc.com/assets/img/2019/05/naverloginapi3-2.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/05/naverloginapi3-2.png)
 
-![""](https://jeongdoc.com/assets/img/2019/05/naverloginapi3-3.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/05/naverloginapi3-3.png)
 
-![""](https://jeongdoc.com/assets/img/2019/05/naverloginapi3-4.png)
+![""](https://cdn.jsdelivr.net/gh/jeongdoc/jeongdoc.github.io/assets/img/2019/05/naverloginapi3-4.png)
 
  제가 만든 예시를 가져와봤습니다.<br>
 간단하게 네아로로 얻은 사용자 정보 데이터를 forward시켜서 페이지에 노출되게 하였습니다.<br>
