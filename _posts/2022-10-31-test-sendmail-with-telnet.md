@@ -71,8 +71,8 @@ rcpt to : receiver@test.com
 Subcommand|Description
 :---:|:---|
 DATA|텍스트 데이터로 메세지 본문 정의. DATA 본문 종료는 "."을 입력.
-EHLO|HELO의 ESMTP(Enhanced SMTP) 버전. ESMTP는 SMTP 프로토콜에 많은 필수 추가 사항을 추가함.
-HELO|송신 서버는 자신이 누구인지 식별하고 수신 서버는(RFC에 따라) 지정된 이름을 수락함. 때문에 정확한 정보를 제공할 필요가 없으나 보통은 도메인 정보를 전달함.
+EHLO|HELO의 ESMTP(Enhanced SMTP) 버전.     ESMTP는 SMTP 프로토콜에 많은 필수 추가 사항을 추가함.
+HELO|송신 서버는 자신이 누구인지 식별하고 수신 서버는(RFC에 따라) 지정된 이름을 수락함.     때문에 정확한 정보를 제공할 필요가 없으나 보통은 도메인 정보를 전달함.
 MAIL FROM|발신 주소 지정
 RCPT TO|수신 주소 지정
 
