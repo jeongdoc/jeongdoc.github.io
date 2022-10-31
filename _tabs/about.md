@@ -39,8 +39,8 @@ It's merely a GitHub metric of which languages I have the most code of on GitHub
 ## Languages and Tools
 
 <div> 
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-524F4F?style=flat-square&logo=JavaScript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-FAF6EB?style=flat-square&logo=Node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
   <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white" />
