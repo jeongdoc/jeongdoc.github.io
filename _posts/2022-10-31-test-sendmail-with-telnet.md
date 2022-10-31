@@ -2,7 +2,7 @@
 title: UBUNTU-LINUX Telnet으로 sendmail 테스트 해보기
 date: '2022-10-31 17:00:42 +0900'
 categories: [OS, UBUNTU-LINUX]
-tags: [OS, ubuntu, linux, smpt]
+tags: [OS, ubuntu, linux, SMTP]
 ---
 
 ### 들어가며
