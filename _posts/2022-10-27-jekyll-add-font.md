@@ -1,13 +1,8 @@
 ---
 title: Jekyll 폰트 적용
 date: '2022-10-27 10:35:00 +0900'
-categories:
-  - JEKYLL
-  - FONT
-tags:
-  - jekyll
-  - font
-published: true
+categories: [JEKYLL,FONT]
+tags: [jekyll,font]
 ---
 
 ### 들어가며

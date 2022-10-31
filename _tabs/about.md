@@ -18,9 +18,7 @@ published: true
 ## Hello!
 
 🎓 &nbsp;Studying bachelor Historiography at the Dongduk women's university    
-💻 &nbsp;I am currently working as a Back-end developer     
-🏦 &nbsp;Working for the [I-BRICKS](http://www.i-bricks.co.kr/) (2020 ~ Now)    
-🏦 &nbsp;Worked for a startup called [PCT](http://www.powerct.kr/) in Korea (2019 ~ 2020)
+💻🏦 &nbsp;I have been working as a Back-end developer for about 3 years now
 
 ---
 
