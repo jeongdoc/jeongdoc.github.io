@@ -1,6 +1,6 @@
 /**
  * Initial Bootstrap Tooltip.
-*/
-$(function () {
+ */
+ $(function () {
   $("[data-toggle=\"tooltip\"]").tooltip();
 });

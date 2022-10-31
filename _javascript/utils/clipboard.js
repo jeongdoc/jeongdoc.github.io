@@ -1,4 +1,4 @@
-/*
+/**
  * Clipboard functions
  *
  * Dependencies:
@@ -6,7 +6,7 @@
  *   - clipboard.js (https://github.com/zenorocha/clipboard.js)
  */
 
-$(function() {
+ $(function () {
   const btnSelector = '.code-header>button';
   const ICON_SUCCESS = 'fas fa-check';
   const ATTR_TIMEOUT = 'timeout';
@@ -15,83 +15,83 @@ $(function() {
   const TIMEOUT = 2000; // in milliseconds
 
   function isLocked(node) {
-    if ($(node)[0].hasAttribute(ATTR_TIMEOUT)) {
-      let timeout = $(node).attr(ATTR_TIMEOUT);
-      if (Number(timeout) > Date.now()) {
-        return true;
+      if ($(node)[0].hasAttribute(ATTR_TIMEOUT)) {
+          let timeout = $(node).attr(ATTR_TIMEOUT);
+          if (Number(timeout) > Date.now()) {
+              return true;
+          }
       }
-    }
-    return false;
+      return false;
   }
 
   function lock(node) {
-    $(node).attr(ATTR_TIMEOUT, Date.now() + TIMEOUT);
+      $(node).attr(ATTR_TIMEOUT, Date.now() + TIMEOUT);
   }
 
   function unlock(node) {
-    $(node).removeAttr(ATTR_TIMEOUT);
+      $(node).removeAttr(ATTR_TIMEOUT);
   }
 
   /* --- Copy code block --- */
 
   // Initial the clipboard.js object
   const clipboard = new ClipboardJS(btnSelector, {
-    target(trigger) {
-      let codeBlock = trigger.parentNode.nextElementSibling;
-      return codeBlock.querySelector('code .rouge-code');
-    }
+      target(trigger) {
+          let codeBlock = trigger.parentNode.nextElementSibling;
+          return codeBlock.querySelector('code .rouge-code');
+      }
   });
 
   $(btnSelector).tooltip({
-    trigger: 'hover',
-    placement: 'left'
+      trigger: 'hover',
+      placement: 'left'
   });
 
   function getIcon(btn) {
-    let iconNode = $(btn).children();
-    return iconNode.attr('class');
+      let iconNode = $(btn).children();
+      return iconNode.attr('class');
   }
 
   const ICON_DEFAULT = getIcon(btnSelector);
 
   function showTooltip(btn) {
-    const succeedTitle = $(btn).attr(ATTR_TITLE_SUCCEED);
-    $(btn).attr(ATTR_TITLE_ORIGIN, succeedTitle).tooltip('show');
+      const succeedTitle = $(btn).attr(ATTR_TITLE_SUCCEED);
+      $(btn).attr(ATTR_TITLE_ORIGIN, succeedTitle).tooltip('show');
   }
 
   function hideTooltip(btn) {
-    $(btn).tooltip('hide').removeAttr(ATTR_TITLE_ORIGIN);
+      $(btn).tooltip('hide').removeAttr(ATTR_TITLE_ORIGIN);
   }
 
   function setSuccessIcon(btn) {
-    let btnNode = $(btn);
-    let iconNode = btnNode.children();
-    iconNode.attr('class', ICON_SUCCESS);
+      let btnNode = $(btn);
+      let iconNode = btnNode.children();
+      iconNode.attr('class', ICON_SUCCESS);
   }
 
   function resumeIcon(btn) {
-    let btnNode = $(btn);
-    let iconNode = btnNode.children();
-    iconNode.attr('class', ICON_DEFAULT);
+      let btnNode = $(btn);
+      let iconNode = btnNode.children();
+      iconNode.attr('class', ICON_DEFAULT);
   }
 
   clipboard.on('success', (e) => {
-    e.clearSelection();
+      e.clearSelection();
 
-    const trigger = e.trigger;
-    if (isLocked(trigger)) {
-      return;
-    }
+      const trigger = e.trigger;
+      if (isLocked(trigger)) {
+          return;
+      }
 
-    setSuccessIcon(trigger);
-    showTooltip(trigger);
-    lock(trigger);
+      setSuccessIcon(trigger);
+      showTooltip(trigger);
+      lock(trigger);
 
-    setTimeout(() => {
-      hideTooltip(trigger);
-      resumeIcon(trigger);
-      unlock(trigger);
-    }, TIMEOUT);
+      setTimeout(() => {
+          hideTooltip(trigger);
+          resumeIcon(trigger);
+          unlock(trigger);
+      }, TIMEOUT);
 
   });
 
@@ -99,34 +99,34 @@ $(function() {
 
   $('#copy-link').click((e) => {
 
-    let target = $(e.target);
+      let target = $(e.target);
 
-    if (isLocked(target)) {
-      return;
-    }
+      if (isLocked(target)) {
+          return;
+      }
 
-    // Copy URL to clipboard
+      // Copy URL to clipboard
 
-    const url = window.location.href;
-    const $temp = $("<input>");
+      const url = window.location.href;
+      const $temp = $("<input>");
 
-    $("body").append($temp);
-    $temp.val(url).select();
-    document.execCommand("copy");
-    $temp.remove();
+      $("body").append($temp);
+      $temp.val(url).select();
+      document.execCommand("copy");
+      $temp.remove();
 
-    // Switch tooltip title
+      // Switch tooltip title
 
-    const defaultTitle = target.attr(ATTR_TITLE_ORIGIN);
-    const succeedTitle = target.attr(ATTR_TITLE_SUCCEED);
+      const defaultTitle = target.attr(ATTR_TITLE_ORIGIN);
+      const succeedTitle = target.attr(ATTR_TITLE_SUCCEED);
 
-    target.attr(ATTR_TITLE_ORIGIN, succeedTitle).tooltip('show');
-    lock(target);
+      target.attr(ATTR_TITLE_ORIGIN, succeedTitle).tooltip('show');
+      lock(target);
 
-    setTimeout(() => {
-      target.attr(ATTR_TITLE_ORIGIN, defaultTitle);
-      unlock(target);
-    }, TIMEOUT);
+      setTimeout(() => {
+          target.attr(ATTR_TITLE_ORIGIN, defaultTitle);
+          unlock(target);
+      }, TIMEOUT);
 
   });
 

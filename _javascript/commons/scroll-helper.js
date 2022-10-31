@@ -1,7 +1,7 @@
 /**
  * A tool for smooth scrolling and topbar switcher
  */
-const ScrollHelper = (function () {
+ const ScrollHelper = (function () {
   const $body = $("body");
   const ATTR_TOPBAR_VISIBLE = "data-topbar-visible";
   const topbarHeight = $("#topbar-wrapper").outerHeight();
@@ -11,26 +11,28 @@ const ScrollHelper = (function () {
   let orientationLocked = false;
 
   return {
-    hideTopbar: () => $body.attr(ATTR_TOPBAR_VISIBLE, false),
-    showTopbar: () => $body.attr(ATTR_TOPBAR_VISIBLE, true),
+      hideTopbar: () => $body.attr(ATTR_TOPBAR_VISIBLE, false),
+      showTopbar: () => $body.attr(ATTR_TOPBAR_VISIBLE, true),
 
-    // scroll up
+      // scroll up
 
-    addScrollUpTask: () => {
-      scrollUpCount += 1;
-      if (!topbarLocked) { topbarLocked = true; }
-    },
-    popScrollUpTask: () => scrollUpCount -= 1,
-    hasScrollUpTask: () => scrollUpCount > 0,
-    topbarLocked: () => topbarLocked === true,
-    unlockTopbar: () => topbarLocked = false,
-    getTopbarHeight: () => topbarHeight,
+      addScrollUpTask: () => {
+          scrollUpCount += 1;
+          if (!topbarLocked) {
+              topbarLocked = true;
+          }
+      },
+      popScrollUpTask: () => scrollUpCount -= 1,
+      hasScrollUpTask: () => scrollUpCount > 0,
+      topbarLocked: () => topbarLocked === true,
+      unlockTopbar: () => topbarLocked = false,
+      getTopbarHeight: () => topbarHeight,
 
-    // orientation change
+      // orientation change
 
-    orientationLocked: () => orientationLocked === true,
-    lockOrientation: () => orientationLocked = true,
-    unLockOrientation: () => orientationLocked = false
+      orientationLocked: () => orientationLocked === true,
+      lockOrientation: () => orientationLocked = true,
+      unLockOrientation: () => orientationLocked = false
   };
 
 }());
