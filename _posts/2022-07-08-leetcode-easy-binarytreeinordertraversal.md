@@ -9,7 +9,7 @@ tags: [algorithm,알고리즘,javascript,leetcode]
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 ## 대충 해석
-주어진 이진트리를 중위순회한 값을 반환하세요
+주어진 이진트리를 중위순회한 값을 반환하세요.
 
 ## Example
 ``` text

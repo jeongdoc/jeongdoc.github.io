@@ -9,7 +9,7 @@ tags: [algorithm,java,알고리즘,자바,leetcode]
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
 ## 대충 해석
-haystac에 needle이 일부분으로 존재하면 index를 반환하고 없으면 -1 반환하세요
+haystac에 needle이 일부분으로 존재하면 index를 반환하고 없으면 -1 반환하세요.
 
 ## Example
 ``` text

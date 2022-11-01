@@ -12,7 +12,7 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 ## 대충 해석
-int 배열과 int 타겟 하나 줌. 배열 요소 두 개의 합이 타겟값과 일치하는 요소찾기. 찾은 후 요소의 인덱스 배열 리턴.
+int 배열과 int 타겟 하나 제공. 배열 요소 두 개의 합이 타겟값과 일치하는 요소찾기. 찾은 후 요소의 인덱스 배열 리턴하세요.
 
 ## Example
 ``` text

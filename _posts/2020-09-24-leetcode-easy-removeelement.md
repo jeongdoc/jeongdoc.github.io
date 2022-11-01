@@ -11,7 +11,7 @@ Do not allocate extra space for another array, you must do this by modifying the
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 ## 대충 해석
-배열과 값을 각각 하나씩 줌. 주어진 배열에서 해당 값을 제외한 배열 리턴.
+배열과 값을 각각 하나씩 줌. 주어진 배열에서 해당 값을 제외한 배열을 리턴하세요.
 
 ## Example
 ``` text

@@ -10,7 +10,7 @@ tags: [algorithm,java,알고리즘,자바,leetcode]
 Given a 32-bit signed integer, reverse digits of an integer.
 
 ## 대충 해석
-32비트 int를 줄테니 뒤집어보세요
+주어빈 32비트 int를 뒤집어보세요
 
 ## Example
 ``` text
