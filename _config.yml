@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   jeongdoc,tansan,development,개발,프로그래밍,algorithm,알고리즘,node,nodejs
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://jeongdoc.com/'
+url: 'https://jeongdoc.com'
 
 github:
   username: jeongdoc             # change to your github username
