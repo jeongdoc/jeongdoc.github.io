@@ -10,7 +10,7 @@ tags: [algorithm,java,알고리즘,자바,백준]
 ``` java
 import java.util.Scanner;
 import java.util.StringTokenizer;
-
+ 
 public class BOJ1152 {
 
 	public static void main(String[] args) {
