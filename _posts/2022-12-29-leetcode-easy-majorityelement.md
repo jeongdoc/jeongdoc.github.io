@@ -63,6 +63,7 @@ var majorityElement = function(nums) {
 ## Solution 2
 첫 번째 풀이로 우선 문제를 풀고 다르게도 풀 수 있을 것 같아서 좀 고민하다, 문제 하단에 있는 follow-up 조건을 그제서야 봤다.    
 > Follow-up: Could you solve the problem in linear time and in O(1) space?    
+
 그래서 조금 고민하다가 bit manipulation으로도 풀 수 있을 것 같은데 싶어서 두 번째는 비트 조작으로 풀이.    
 ``` javascript
 var majorityElement2 = function(nums) {
@@ -93,6 +94,7 @@ var majorityElement2 = function(nums) {
 Solution 2의 방식으로 푼 후에 아무리 생각해도 for문 하나로도 될 것 같은데.. 하고   
 선형시간에 상수공간이라는 follow-up을 곰곰이 보며 고민하다가    
 > the element that appears more than `⌊n / 2⌋` times.    
+
 이 부분을 보고 문득 _"그러게, 과반수 투표 알고리즘인데?"_ 라는 생각이 들어 해당 알고리즘을 사용하여 마지막 풀이를 했다.    
 
 * 과반수 투표 알고리즘(majority vote algorithm)    
