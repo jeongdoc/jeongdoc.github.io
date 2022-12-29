@@ -98,8 +98,8 @@ Solution 2의 방식으로 푼 후에 아무리 생각해도 for문 하나로도
 이 부분을 보고 문득 _"그러게, 과반수 투표 알고리즘인데?"_ 라는 생각이 들어 해당 알고리즘을 사용하여 마지막 풀이를 했다.    
 
 * 과반수 투표 알고리즘(majority vote algorithm)    
-- 배열 내에 절반 이상 존재하는 원소를 선형시간(linear time), 상수공간(constant space)으로 찾을 수 있는 알고리즘.
-- 단, 배열에 절반 이상 존재하는 원소가 무조건 있다는 조건이 필요. 이 조건이 보장되지 않는다면 결과값으로 쓰레기 값이 나올 수도 있음.    
+ - 배열 내에 절반 이상 존재하는 원소를 선형시간(linear time), 상수공간(constant space)으로 찾을 수 있는 알고리즘.
+ - 단, 배열에 절반 이상 존재하는 원소가 무조건 있다는 조건이 필요. 이 조건이 보장되지 않는다면 결과값으로 쓰레기 값이 나올 수도 있음.    
 ``` javascript
 var majorityElement3 = function(nums) {
     // Boyer-Moore, majority vote algorithm
