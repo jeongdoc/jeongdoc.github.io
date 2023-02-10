@@ -2,7 +2,7 @@ name: 'Style Lint'
 
 on:
   push:
-   branches-ignore:
+    branches-ignore:
       - 'production'
       - 'docs'
     paths:
