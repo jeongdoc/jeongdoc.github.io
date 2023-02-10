@@ -28,4 +28,4 @@ This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chi
 [cn-donation]: https://cotes2020.github.io/sponsor/
 
 
-Powered by Jekyll with Chirpy theme v3.2.1 by cotes2020.
+Powered by Jekyll with Chirpy theme v5.5.2 by cotes2020.
