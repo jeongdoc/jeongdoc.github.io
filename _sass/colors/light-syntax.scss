@@ -2,7 +2,7 @@
  * The syntax light mode code snippet colors.
  */
 
-@mixin light-syntax {
+ @mixin light-syntax {
   /* see: <https://raw.githubusercontent.com/jwarby/pygments-css/master/github.css> */
   .highlight .hll { background-color: #ffffcc; }
   .highlight .c { color: #999988; font-style: italic; } /* Comment */
@@ -76,9 +76,8 @@
   --code-header-icon-color: #d1d1d1;
   --clipboard-checked-color: #43c743;
 
-  [class^=prompt-] {
+  [class^='prompt-'] {
     --inline-code-bg: #fbfafa;
-    --highlighter-rouge-color: rgb(82 82 82);
+    --highlighter-rouge-color: rgb(82, 82, 82);
   }
-
 } /* light-syntax */
