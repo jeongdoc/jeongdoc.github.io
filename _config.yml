@@ -87,7 +87,7 @@ img_cdn: 'https://www.jeongdoc.net'
 # the avatar on sidebar, support local or CORS resources
 avatar: '/files/img/items/jeongdoc_white_300.png'   
 
-# boolean type, the global switch for ToC in posts.
+# boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
@@ -186,13 +186,13 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
+  - "*.gem"
+  - "*.gemspec"
   - tools
   - README.md
   - CHANGELOG.md
   - LICENSE
-  - gulpfile.js
+  - rollup.config.js
   - node_modules
   - package*.json
 

@@ -40,7 +40,9 @@ html {
 }
 
 body {
-  background: var(--body-bg);
+  background: var(--main-bg);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
@@ -169,11 +171,6 @@ blockquote {
   @include prompt("info", "\f06a");
   @include prompt("warning", "\f06a");
   @include prompt("danger", "\f071");
-}
-
-mjx-container {
-  overflow-x: auto;
-  overflow-y: hidden;
 }
 
 kbd {
@@ -431,10 +428,6 @@ i { /* fontawesome icons */
   word-spacing: 1px;
 
   a {
-    &:not(:last-child) {
-      margin-right: 2px;
-    }
-
     &:not([class]):hover {
       @extend %link-hover;
     }
@@ -694,6 +687,12 @@ figure .mfp-title {
 /* mermaid */
 .mermaid {
   text-align: center;
+}
+
+/* MathJax */
+mjx-container {
+  overflow-y: hidden;
+  min-width: auto !important;
 }
 
 /* --- sidebar layout --- */
@@ -1136,10 +1135,7 @@ $sidebar-display: "sidebar-display";
 #mask {
   display: none;
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0 0 0 0;  
   height: 100%;
   width: 100%;
   z-index: 1;
